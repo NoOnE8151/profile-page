@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= config.title %></title>
+  <!-- css -->
+  <link rel="stylesheet" href="/css/style.css">
+  <!-- custom icons -->
+  <script src="https://kit.fontawesome.com/975b15b9ef.js" crossorigin="anonymous"></script>
+  <!-- javascript -->
+  <script defer src="/js/script.js"></script>
+</head>
+<body>
+
+  <div class="noPc">
+  <div>
+    👋 Hey! this page is available for mobile only, please adjust your desktop screen size from dev tools or visit from mobile.
+  </div>
+  </div>
+  
+  <main>
+    <div id="preEnter" class="preEnter">
+    <div>
+      <b>CLICK TO ENTER</b>
+    </div>
+    </div>
+    
+    <div class="container">
+      
+      <div class="cardHead">
+        <img src="/img/pfp.png" alt="avatar">
+
+        <div class="infoContent">
+        <h1 id="username"><%= config.username %></h1>
+          <div id="pronounce"><%= config.pronounce %></div>
+          <div><%= config.location %> </div>
+        </div>
+        </div>
+
+      <div class="body">
+        <p class="bio">
+          <%= config.bio %>
+        </p>
+
+        <div class="skillSec">
+          <div class="subHeading">
+          <i class="hashIcon fa-solid fa-hashtag"></i>&nbsp; <h3>Skills</h3>
+          </div>
+          <div class="skillCont">
+            <i class="fa-brands fa-html5 skillIcon html"></i>
+            <i class="fa-brands fa-css3-alt skillIcon css"></i>
+            <i class="fa-brands fa-js skillIcon js"></i>
+            <i class="fa-brands fa-node-js skillIcon nodejs"></i>
+            
+          </div>
+        </div>
+
+        <div class="socialSec">
+          <div class="subHeading socialHeading">
+           <i class="hashIcon fa-solid fa-hashtag"></i>&nbsp; <h3>Social Media</h3>
+          </div>
+
+          <div class="linkCont discordCont">
+            <i class="fa-brands fa-discord linkIcon discord"></i> <div id="discordUsername" class="linkText">no_one8151</div>
+          </div>
+          
+          <div class="linkCont githubCont">
+            <i class="fa-brands fa-github linkIcon github"></i> <a class="linkText" href="#">Github</a>
+          </div>
+
+          <div class="linkCont instagramCont">
+            <i class="fa-brands fa-instagram linkIcon instagram"></i> <a class="linkText" href="#">Instagram</a>
+          </div>
+          
+        </div>
+      </div>
+      
+    </div>
+  </main>
+</body>
+</html>
