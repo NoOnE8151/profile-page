@@ -6,7 +6,7 @@ import { dirname } from 'path';
 
 const app = express();
 app.set('view engine', 'ejs');
-const port = process.env.PORT
+const port = 3000;
 
 app.use(express.static('assets'));
 
