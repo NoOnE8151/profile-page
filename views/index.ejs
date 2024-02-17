@@ -11,6 +11,8 @@
   <script src="https://kit.fontawesome.com/975b15b9ef.js" crossorigin="anonymous"></script>
   <!-- javascript -->
   <script defer src="/js/script.js"></script>
+  <script defer src="/js/dropdown.js"></script>
+  <script defer src="/js/music.js"></script>
 </head>
 <body>
 
@@ -56,28 +58,63 @@
             
           </div>
         </div>
-
+        
         <div class="socialSec">
-          <div class="subHeading socialHeading">
+<div class="subHeading socialHeading">
            <i class="hashIcon fa-solid fa-hashtag"></i>&nbsp; <h3>Social Media</h3>
-          </div>
-
+</div>
           <div class="linkCont discordCont">
             <i class="fa-brands fa-discord linkIcon discord"></i> <div id="discordUsername" class="linkText">no_one8151</div>
           </div>
           
           <div class="linkCont githubCont">
-            <i class="fa-brands fa-github linkIcon github"></i> <a class="linkText" href="#">Github</a>
+            <i class="fa-brands fa-github linkIcon github"></i> <a class="linkText" href="https://github.com/NoOnE8151">Github</a>
           </div>
 
           <div class="linkCont instagramCont">
-            <i class="fa-brands fa-instagram linkIcon instagram"></i> <a class="linkText" href="#">Instagram</a>
+            <i class="fa-brands fa-instagram linkIcon instagram"></i> <a class="linkText" href="https://www.instagram.com/codeconquests_?igsh=MTE1cTZtZzVtMWg1ZA==">Instagram</a>
+          </div>
+          <div class="btnCont socialIconCont">
+            
+          <button class="dropdownBtn"><i class="fa-solid fa-circle-chevron-left dropdownBtnIcon"></i></button>
+          </div>
+        </div>
+        
+      </div> 
+    </div>
+
+    <div class="dropdownCont">
+        <div class="musicControlSec">
+          
+          <div class="musicName">
+          Playing <span id="playing">Still Dre</span>
+          </div>
+          
+          <div class="musicIconCont">
+          
+          <span id="musicPrevBtn" class="musicIcon">
+            <i class="fa-solid fa-backward-step"></i>
+          </span>
+
+          <span id="musicPauseBtn" class="musicIcon">
+          <i id="musicPauseBtn" class="fa-solid fa-pause"></i>
+          </span>
+
+          <span id="musicPlayBtn" class="musicIcon musicIconHide">
+          <i id="musicPlayBtn" class="fa-solid fa-play"></i>
+          </span>
+
+          <span id="musicNextBtn" class="musicIcon">
+          <i class="fa-solid fa-forward-step"></i>
+          </span>
           </div>
           
         </div>
-      </div>
-      
     </div>
   </main>
+
+  <footer>
+    <div>Made By @No OnE8151</div>
+  </footer>
 </body>
 </html>
